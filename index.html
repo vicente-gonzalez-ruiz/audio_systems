@@ -11809,67 +11809,6 @@ div#notebook {
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">html</span>
-&lt;style&gt;
-    /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: &quot;&quot;;
-  clear: both;
-  display: table;
-}
-&lt;/style&gt;
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-<style>
-    /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -11886,16 +11825,24 @@ div#notebook {
 </ol>
 </li>
 </ul>
-<div class="row">
-  <div class="column">
-      <img src="data/480px-Polar_pattern_figure_eight.png">
-  </div>
-  <div class="column">
-      <img src="data/480px-Polar_pattern_cardioid.png">
-  </div>
-  <div class="column">
-      <img src="data/480px-Polar_pattern_omnidirectional.png">
-  </div>
+<div id="image-table">
+    <table>
+        <tr>
+            <td style="padding:5px">
+                <img src="data/480px-Polar_pattern_figure_eight.png" width=250>
+                Short exposure time
+            </td>
+            <td style="padding:5px">
+                <img src="data/480px-Polar_pattern_cardioid.png" width=250>
+                Long exposure time
+             </td>
+            <td style="padding:5px">
+                <img src="data/480px-Polar_pattern_omnidirectional.png" width=250>
+                Long exposure time
+             </td>
+        </tr>
+    </table>
+</div>
 </div>
 </div>
 </div>
